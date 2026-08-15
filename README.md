@@ -17,3 +17,12 @@ Unlike conventional CT (fan/cone beam), RBYRCT is **ray-by-ray**: the system can
 - VEX/Python core for Bragg steering and efficiency modeling
 - Synthetic detector hitmap exporter for ML/reconstruction
 
+## ▶️ Pipeline Quickstart
+
+Run the full pipeline (layout → Houdini export → endpoints → hitmap):
+
+```bash
+python scripts/run_pipeline.py \
+  --hip houdini/projects/bragg_reflection_demo.hiplc \
+  --node /obj/janus_beam_reflection/geo1/OUT_REFLECTION
+```
