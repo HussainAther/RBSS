@@ -1,4 +1,4 @@
-## Vision: RBYRCT Beam Steering Studio (RBSS)
+## Vision: RBYRCT Beam Steering Studio (RBSS) 
 
 RBYRCT-Houdini is the foundation for **RBYRCT Beam Steering Studio (RBSS)** — a purpose-built simulation, planning, and control platform for **electronically steerable X-ray beams**.
 
